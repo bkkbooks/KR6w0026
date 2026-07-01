@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6w0026/v1
+canonical_location: https://kanripo.org/bkk/KR6w0026/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 菩提心論口筆
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D26/D26n8882.xml
+    old_id: D26n8882
+  edition:
+    short: bkk
+editions:
+- short: 國圖
+  label: 國圖
+  source_xml_id: wit.orig
+- short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0026_000.yaml, hash: 'sha256:f669b38580cf5babbefee57700ed094b876cf7bf252bd6cae932325b6c57d434'}
+  - {seq: 1, filename: KR6w0026_001.yaml, hash: 'sha256:5899e9a9c37b5cee06f1a07e6786b0718238784dedaa25f679c52bc382d62a8b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6w0026_001.markers.yaml, hash: 'sha256:eaf4cf67a66e3ff19dba8e4498292742c030d02af8a2d28001c2fc4007561c2f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0026_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 13790
+  label: 菩提心論口筆三摩地叚
+  type: juan
+  level: 1
+hash: sha256:d8a556c8fd053053bd7899c061d58ec66015304df6055c3b9684b0be27cd4d89
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

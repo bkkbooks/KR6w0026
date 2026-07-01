@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6w0026/D/v1
+canonical_location: https://kanripo.org/bkk/KR6w0026/D/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 菩提心論口筆
+  identifiers:
+    krp: KR6w0026
+    cbeta: D26n8882
+    cbeta_old_id: D26n8882
+    authorityid: CA0008025
+    json_key: D8882
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D26/D26n8882.xml
+    old_id: D26n8882
+  edition:
+    short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0026_000-D.yaml, hash: 'sha256:f669b38580cf5babbefee57700ed094b876cf7bf252bd6cae932325b6c57d434'}
+  - {seq: 1, filename: KR6w0026_001-D.yaml, hash: 'sha256:f4acf2d56f84809dadabd2e0cdf861a8dd780d2dd2b10bee9b3e1e6dbbf8b08b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6w0026_000-D.markers.yaml, hash: 'sha256:598fdeaeca06ac04224b70bac166c221b316e52c9552234bd9d6390f60280c48'}
+  - {seq: 1, role: markers, filename: assets/KR6w0026_001-D.markers.yaml, hash: 'sha256:84c731ee07c55a55071447955199dd77553897e9723b31932fe9a134a0f31391'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0026_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 13790
+  label: 菩提心論口筆三摩地叚
+  type: juan
+  level: 1
+hash: sha256:e23368bd17555ef131526279525718b1e5ff31342d8e94402c251e2a54e5e3a4
