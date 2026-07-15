@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6w0026/v1
 canonical_location: https://kanripo.org/bkk/KR6w0026/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 菩提心論口筆
   source:
@@ -19,10 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6w0026_000.yaml, hash: 'sha256:f669b38580cf5babbefee57700ed094b876cf7bf252bd6cae932325b6c57d434'}
-  - {seq: 1, filename: KR6w0026_001.yaml, hash: 'sha256:f4acf2d56f84809dadabd2e0cdf861a8dd780d2dd2b10bee9b3e1e6dbbf8b08b'}
+  - {seq: 1, filename: KR6w0026_001.yaml, hash: 'sha256:a6f732149f398b09d540e63d11c2f08c46426859622d7f53d7d00b4867ed7d5f'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6w0026_000.markers.yaml, hash: 'sha256:5305cd0b9ba6e5596d0ce26ab331d0d0d9eca08e0925cdad639d2fe86f977f25'}
-  - {seq: 1, role: markers, filename: assets/KR6w0026_001.markers.yaml, hash: 'sha256:1c43d1b49d2cd91c830364eabd173b3901427a917a876a56a6798c7810d11fe8'}
+  - {seq: 1, role: markers, filename: assets/KR6w0026_001.markers.yaml, hash: 'sha256:2f7da00d2f16262f322c4bf2041579161075afebdde5a45214c978d0ed89a770'}
 table_of_contents:
 - ref:
     seq: 1
@@ -34,4 +34,7 @@ table_of_contents:
   label: 菩提心論口筆三摩地叚
   type: juan
   level: 1
-hash: sha256:deaaba9a6d6111472bb74fcb86c5417631e2b6cf77e16110e8a8c7edf353f5ba
+hash: sha256:8fe673f2d3c4d3dc2efef92d6abfde34f1512be00e96d69f2d4b3320b0f07600
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
